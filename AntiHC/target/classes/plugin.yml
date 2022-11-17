@@ -1,0 +1,4 @@
+name: AntiHC
+author: Koz
+version: 1.0
+main: me.koz.antihc.Core

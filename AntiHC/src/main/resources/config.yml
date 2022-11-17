@@ -1,0 +1,25 @@
+commandblocker:
+  blocked-commands:
+    - "/help"
+    - "/test"
+
+verify:
+  verify-message: ".antihcverify"
+  join-actionbar:
+    message: "&a&lYou must verify to play!" #ActionBar message
+    enabled: true
+  verified-actionbar:
+    message: "&a&lYou are now verified!" #ActionBar message
+    enabled: true
+  join-title:
+    enabled: true
+  verified-title:
+    enabled: true
+
+verifychat:
+  join-message:
+    message: "&c&lYou must input .antihcverify to verify your account and begin playing." #chatmessage
+    enabled: true
+  verified-message:
+    message: "&a&lSuccess! You are now verified to play!" #chatmessage
+    enabled: true
